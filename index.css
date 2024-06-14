@@ -59,7 +59,8 @@ header{
 .country{
     color: rgb(173, 110, 110);
     font-family: archivo;
-    font-size: 3em;   
+    font-size: 3em;  
+    text-align: center;
 }
 
 .date{
@@ -68,6 +69,7 @@ header{
     font-family: archivo;
     letter-spacing: 2px;
     font-size: 20px;
+    text-align: center;
 }
 
 .grid{
