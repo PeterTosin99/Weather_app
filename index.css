@@ -126,12 +126,19 @@ input:-webkit-autofill:active{
      background-repeat: no-repeat;
      background-size:cover;
      background-position: center;
+     height: 100%;
+     width: 100%;
   }
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
     body{
         background-image:url(images/Bluesky.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
     }
 
     header{
