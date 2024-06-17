@@ -15,6 +15,7 @@ body{
     background-color: antiquewhite;
     width: 100%;
     height: 100%;
+    margin-bottom: 200px;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -25,7 +26,7 @@ header{
     font-family: 'Dancing Script', bold;
     font-weight: 900;
     font-size: 55px;
-    color: rgb(173, 103, 103);
+    color: rgb(158, 59, 59);
 }
 
 
@@ -46,18 +47,18 @@ header{
     outline: none;
     color: rgb(230, 224, 224);
     background-color: transparent;
-    border: 2px solid  rgb(173, 103, 103);
+    border: 2px solid  rgb(158, 59, 59);
     font-size: 20px;
+    cursor: pointer;
 }
 
 #input::placeholder{
     color: white;
     opacity: 65%;
-
 }
 
 .country{
-    color: rgb(173, 110, 110);
+    color: rgb(158, 59, 59);
     font-family: archivo;
     font-size: 3em;  
     text-align: center;
@@ -65,7 +66,7 @@ header{
 
 .date{
     margin-top: -90px;
-    color: rgb(173, 103, 103);
+    color: rgb(158, 59, 59);
     font-family: archivo;
     letter-spacing: 2px;
     font-size: 20px;
@@ -92,7 +93,7 @@ input:-webkit-autofill:active{
 .search{
     border-radius: 5px 5px;
     height: 39px;
-    background:linear-gradient(0deg, #89e7f0 0%, #ffffff 100%);
+    background:linear-gradient(0deg, #487478 0%, #ffffff 100%);
     width: 130px;
     font-size: 20px;
     margin-left: 20px;
@@ -100,19 +101,20 @@ input:-webkit-autofill:active{
 
 }
 .search:active{
-    box-shadow: 5px 5px 10px 1px #000000;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 1px #e41d1d;
 }
 
 .temp{
     font-family: 'archivo', bold;
     text-align: center;
-    color: rgb(173, 103, 103);
+    color: rgb(158, 59, 59);
     font-size: 76px;
     margin-top: 10px;
 }
 
 .temptype{
-    color: rgb(173, 103, 103);
+    color: rgb(158, 59, 59);
     text-align: center;
     font-size: 20px;
     font-family: archivo-light;
@@ -147,17 +149,18 @@ img{
 
     header{
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 30px;
         margin: auto;
     }
 
     #input{
         height: 20px;
-        width: 100px;
+        width: 200px;
     }
 
     #input::placeholder{
         font-size:12px;
+        font-weight: bold;
     }
 
 .search{
@@ -166,6 +169,31 @@ img{
     margin-left: -1px;
 }
 
+.grid{
+    margin-top: 60px;
+    position: relative;
+    
+
+    
+}
+
+.country{
+    font-size: 20px;
+}
+
+.date{
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.temp{
+    font-size: 30px;
+}
+
+.temptype{
+    font-size: 30px;
+    margin-top: 5px;
+}
 
   }
   
