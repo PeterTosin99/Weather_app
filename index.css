@@ -148,7 +148,7 @@ img{
     }
 
     .input{
-        margin-left: 50px;
+        display: grid;
     }
 
     header{
@@ -170,7 +170,9 @@ img{
 .search{
     width: 60px;
     font-size: 12px;
-    margin-left: -1px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 60px;
 }
 
 .grid{
