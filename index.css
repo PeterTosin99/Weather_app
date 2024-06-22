@@ -147,6 +147,11 @@ img{
         width: 100%;
     }
 
+    .input{
+        text-align: center;
+        margin-left: 35px;
+    }
+
     header{
         margin-left: 50px;
         font-size: 30px;
